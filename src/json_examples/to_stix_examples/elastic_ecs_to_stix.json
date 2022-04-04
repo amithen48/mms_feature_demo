@@ -1,0 +1,13 @@
+{
+  "_source": {
+    "@timestamp": "2020-01-01T01:01:01.001Z",
+    "cat": "##################",
+    "process": {
+      "args": "--yolo"
+    },
+    "host": {
+      "ip": "192.0.2.42",
+      "name": "matbook-pro.lan"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "bundle",
+  "id": "bundle--5e2d4015-02ee-489c-9b49-8c5532cd62cd",
+  "objects": [
+    {
+      "type": "identity",
+      "id": "identity--3532c56d-ea72-48be-a2ad-1a53f4c9c6d3",
+      "name": "ECS",
+      "identity_class": "events"
+    },
+    {
+      "id": "observed-data--d6720e72-a65d-4e92-bb19-216478494eb9",
+      "type": "observed-data",
+      "created_by_ref": "identity--3532c56d-ea72-48be-a2ad-1a53f4c9c6d3",
+      "created": "2022-03-24T09:37:22.254Z",
+      "modified": "2022-03-24T09:37:22.254Z",
+      "objects": {
+        "0": {
+          "type": "x-ecs-process",
+          "args": "--yolo"
+        },
+        "1": {
+          "type": "ipv4-addr",
+          "value": "192.0.2.42"
+        },
+        "2": {
+          "type": "x-oca-asset",
+          "ip_refs": ["1"],
+          "name": "matbook-pro.lan"
+        }
+      },
+      "first_observed": "2020-01-01T01:01:01.001Z",
+      "last_observed": "2020-01-01T01:01:01.001Z",
+      "number_observed": 1
+    }
+  ],
+  "spec_version": "2.0"
+}
