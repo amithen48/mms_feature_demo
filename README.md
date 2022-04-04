@@ -13,7 +13,7 @@ You may also see any lint errors in the console.
 ### `python app.py`
 
 Runs the backend flask app in development mode.\
-Open [http://localhost:3000](http://localhost:5000) to view it in your browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 ### `How to use?`
 
